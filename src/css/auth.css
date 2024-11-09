@@ -1,0 +1,91 @@
+.bg {
+  background: linear-gradient(71.17deg, #feaf00 19.35%, #f8d442 90.12%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.bg form {
+  width: 476px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 42px 30px;
+  text-align: center;
+}
+.bg form img {
+  width: 151px;
+  margin-bottom: 43px;
+  margin-inline: auto;
+}
+.bg form h1 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 9px;
+}
+.bg form span {
+  font-size: 14px;
+  color: #6c6c6c;
+  margin-bottom: 50px;
+}
+.bg form label {
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #6c6c6c;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.bg form label div {
+  display: flex;
+  gap: 24px;
+}
+.bg form label div.fileUploader {
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed rgba(56, 78, 183, 0.3019607843);
+  width: 100px;
+  height: 100px;
+  border-radius: 4px;
+  margin-top: 17px;
+  background-color: #f8f8ff;
+}
+.bg form label input {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 4px;
+  padding: 15px;
+  border: 1px solid #e5e5e5;
+  background: none;
+  outline: none;
+}
+.bg form label input::-moz-placeholder {
+  color: #cdcdcd;
+}
+.bg form label input::placeholder {
+  color: #cdcdcd;
+}
+.bg form button {
+  margin-top: 10px;
+  background-color: #feaf00;
+  color: white;
+  font-weight: 500;
+  padding-block: 14px;
+  border-radius: 4px;
+  outline: none;
+  margin-bottom: 27px;
+  border: none;
+  cursor: pointer;
+}
+.bg form p {
+  font-size: 14px;
+  font-weight: 500;
+}
+.bg form p a {
+  color: #feaf00;
+  font-weight: 600;
+}/*# sourceMappingURL=auth.css.map */

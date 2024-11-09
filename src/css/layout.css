@@ -1,0 +1,103 @@
+.mainLayout {
+  display: flex;
+}
+.mainLayout .sidebar {
+  width: 270px;
+  background-color: #f2eae1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  top: 0;
+  position: sticky;
+  flex-shrink: 0;
+  padding: 35px 30px 0;
+}
+@media (max-width: 1000px) {
+  .mainLayout .sidebar {
+    width: 150px;
+  }
+}
+.mainLayout .sidebar .logo {
+  width: 100px;
+  border-left: 4px solid #f8d442;
+  padding-left: 12px;
+  margin-bottom: 54px;
+}
+.mainLayout .sidebar .avatar {
+  width: 128px;
+  height: 128px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+@media (max-width: 1000px) {
+  .mainLayout .sidebar .avatar {
+    width: 100px;
+    height: 100px;
+  }
+}
+.mainLayout .sidebar p {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 91px;
+  text-align: center;
+}
+.mainLayout .sidebar div {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.mainLayout .sidebar div a {
+  width: 193px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: black;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 500;
+  height: 41px;
+}
+@media (max-width: 1000px) {
+  .mainLayout .sidebar div a {
+    width: 50px;
+  }
+  .mainLayout .sidebar div a span {
+    display: none;
+  }
+}
+.mainLayout .sidebar button {
+  cursor: pointer;
+  margin-top: auto;
+  margin-bottom: 31px;
+  gap: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  background: none;
+}
+@media (max-width: 1000px) {
+  .mainLayout .sidebar button span {
+    display: none;
+  }
+}
+.mainLayout .mainContent {
+  height: 100%;
+  min-height: 100vh;
+  width: calc(100vw - 300px);
+  padding-inline: 64px;
+  margin-top: 24px;
+}
+@media (max-width: 900px) {
+  .mainLayout .mainContent {
+    padding-inline: 30px;
+  }
+}
+@media (max-width: 1000px) {
+  .mainLayout .mainContent {
+    width: calc(100vw - 180px);
+  }
+}/*# sourceMappingURL=layout.css.map */
